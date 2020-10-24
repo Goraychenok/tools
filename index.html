@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="img/logo.png">
+    <title>Инструмент-Ремонт</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <a href="./index.html"  class="header__logo">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li><a href="javascript://0"  onclick="slowScroll('#home')" class="header__link">Главная</a></li>
+                        <li><a href="javascript://0"  onclick="slowScroll('#about')" class="header__link">О нас</a></li>
+                        <li><a href="javascript://0"  onclick="slowScroll('#services')" class="header__link">Услуги</a></li>
+                        <li><a href="javascript://0"  onclick="slowScroll('#contacts')"   class="header__link">Конаткты</a></li>
+                        <li><a href="" class="header__link">Прайс-лист</a></li>
+                        <li><a href="tel:8(929)269-59-94" class="header-link"><img src="./img/home/contacts/phone.png" alt="" class="header-link-img"><p class="header-link-span">8(929)269-59-94</p></a></li>
+                    </ul>
+                </nav>
+                
+                <button class="button header__button popup-btn">Обратный звонок</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="home-first_window section" id="home">
+        <div class="home-first_window-page">
+            <div class="container">
+                <div class="row">
+                   <div class="col-lg-8 col-md-6 col-12">
+                    <span class="home-first_window-span">Не дорого, Быстро, Качественно.</span>
+                    <h1 class="home-first_window-title">Ремонт электроинструментов и бензоинструментов в Тюмени</h1>
+                    <div class="button-block">
+                        <button class="button home-first_window-button popup-btn">Получить информацию</button>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section about-company" id="about">
+        <div class="about-company_text">
+            <div class="container">
+                <div class="col-lg-12">
+                    <h4 class="about-company-title">О компании</h4>
+                    <p class="about-company-paragraph">Инструмент сервис -опытная компания в области ремонта и сервисного обслуживания электро и бензо техники. Современные методы диагностирования и опыт мастеров гарантирует результат положительного ремонта. Мы можем производить ремонт  любой сложности , даже если кто- то уже ремонтировал Ваше оборудование! Мы лучшие и мы знаем об этом!</p>
+                </div>
+            </div>
+        </div>
+        <div class="about-company_img">
+
+        </div>
+    </section>
+    <div class="about-company_img-two">
+        <img src="./img/home/about-company/bg.png" alt="">
+    </div>
+
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="services-title">Услуги</h2>
+                    <p class="services-sename">Мы ремонтируем такие виды оборудования :</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="services-block">
+                        <img src="./img/home/services/first.png" alt="" class="services-img">
+                        <p class="services-paragraph">Ремонт бензоинструментов</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 сol-12">
+                    <div class="services-block">
+                        <img src="./img/home/services/twice.png" alt="" class="services-img">
+                        <p class="services-paragraph">Ремонт электроинструментов</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section plus">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="services-title plus-title">Наши плюсы</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-6">
+                    <div class="plus-block">
+                        <img src="./img/home/plus/first.png" alt="" class="plus-img">
+                        <p class="plus-name">Бесплатна<br>
+                            диагностика</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <div class="plus-block">
+                        <img src="./img/home/plus/twice.png" alt="" class="plus-img">
+                        <p class="plus-name">Кратчайшие сроки ремонта</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <div class="plus-block">
+                        <img src="./img/home/plus/three.png" alt="" class="plus-img">
+                        <p class="plus-name">Авторизованный сервисный центр по ремонту 100+ брендов</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <div class="plus-block">
+                        <img src="./img/home/plus/four.png" alt="" class="plus-img">
+                        <p class="plus-name">Гарантия на<br> 
+                            заменяемые детали</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <div class="plus-block">
+                        <img src="./img/home/plus/five.png" alt="" class="plus-img">
+                        <p class="plus-name">В наличии расходные материалы и запчасти</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <div class="plus-block">
+                        <img src="./img/home/plus/six.png" alt="" class="plus-img">
+                        <p class="plus-name">Мониторим конкурентов и делаем самые выгодные предложения</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <div class="plus-block">
+                        <img src="./img/home/plus/seven.png" alt="" class="plus-img">
+                        <p class="plus-name">Учитываем пожелание клиентов</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <div class="plus-block">
+                        <img src="./img/home/plus/eight.png" alt="" class="plus-img">
+                        <p class="plus-name">Гарантия на<br> 
+                            ремонт</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 offset-3 offset-md-0 offset-lg-0">
+                    <div class="plus-block">
+                        <img src="./img/home/plus/nine.png" alt="" class="plus-img">
+                        <p class="plus-name">Примем любой инструмент на диагностику</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section call">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4 class="call-title">Интересуют другие услуги по ремонту инструмента?</h4>
+                    <div class="call-block">
+                        <button class="call-button popup-btn">Позвонить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section tools">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="services-title">Мы работаем с инструментом:</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-2 offset-lg-1 col-md-2 offset-md-1 col-5 offset-1"><img src="./img/home/tools/first.png" alt="" class="tools-img"></div>
+                                        <div class="col-lg-2 col-md-2 col-5"><img src="./img/home/tools/twice.png" alt="" class="tools-img"></div>
+                                        <div class="col-lg-2 col-md-2 col-5 offset-1 offset-md-0"><img src="./img/home/tools/three.png" alt="" class="tools-img"></div>
+                                        <div class="col-lg-2 col-md-2 col-5"><img src="./img/home/tools/four.png" alt="" class="tools-img"></div>
+                                        <div class="col-lg-2 col-md-2 col-5 offset-4 offset-md-0"><img src="./img/home/tools/five.png" alt="" class="tools-img"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-2 offset-lg-1 col-md-2 offset-md-1 col-5 offset-1"><img src="./img/home/tools/first.png" alt="" class="tools-img"></div>
+                                        <div class="col-lg-2 col-md-2 col-5"><img src="./img/home/tools/twice.png" alt="" class="tools-img"></div>
+                                        <div class="col-lg-2 col-md-2 col-5 offset-1 offset-md-0"><img src="./img/home/tools/three.png" alt="" class="tools-img"></div>
+                                        <div class="col-lg-2 col-md-2 col-5"><img src="./img/home/tools/four.png" alt="" class="tools-img"></div>
+                                        <div class="col-lg-2 col-md-2 col-5 offset-4 offset-md-0"><img src="./img/home/tools/five.png" alt="" class="tools-img"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-2 offset-lg-1 col-md-2 offset-md-1 col-5 offset-1"><img src="./img/home/tools/first.png" alt="" class="tools-img"></div>
+                                        <div class="col-lg-2 col-md-2 col-5"><img src="./img/home/tools/twice.png" alt="" class="tools-img"></div>
+                                        <div class="col-lg-2 col-md-2 col-5 offset-1 offset-md-0"><img src="./img/home/tools/three.png" alt="" class="tools-img"></div>
+                                        <div class="col-lg-2 col-md-2 col-5"><img src="./img/home/tools/four.png" alt="" class="tools-img"></div>
+                                        <div class="col-lg-2 col-md-2 col-5 offset-4 offset-md-0"><img src="./img/home/tools/five.png" alt="" class="tools-img"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                            <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section contacts" id="contacts">
+        <div class="contacts-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h5 class="contacts-title">
+                            Контакты
+                        </h5>
+                        <a href="tel:+7(929)269-59-94" class="contacts-link">
+                            <img src="./img/home/contacts/phone.png" alt="" class="contacts-img">
+                            <p class="contacts-name">8(929)269-59-94</p>
+                        </a>
+                        <div class="contacts-link">
+                            <img src="./img/home/contacts/map.png" alt="" class="contacts-img">
+                            <p class="contacts-name">Московский тракт, 144 (9 бокс)<br>  Калининский округ, Тюмень, 625018</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contacts-map">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A94fcc51720c152a1aa184221fc2ce28a3c20874b9328a8c5a9ccde6155cc373f&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+        </div>
+    </section>
+    <div class="map"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A94fcc51720c152a1aa184221fc2ce28a3c20874b9328a8c5a9ccde6155cc373f&amp;source=constructor" width="100%" height="200" frameborder="0"></iframe></div>
+
+    <footer class="footer">
+        <div class="footer-f">
+            <div class="container">
+                <div class="footer-first">
+                    <img src="./img/logo.png" alt="" class="footer-logo">
+                    <a href="tel:+7(929)269-59-94" class="footer-link">
+                        <img src="./img/home/contacts/phone.png" alt="" class="footer-img">
+                        <p class="footer-phone">8(929)269-59-94</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-twice">
+            <div class="container">
+                <div class="footer-t">
+                    <a href="https://goryachenok.ru/" class="footer-span">site by Nikita Goryachev</a>
+                    <p class="footer-span">copyright 2020</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="popup">
+        <div class="popup-dialog" id="popup-dialog">
+          <div class="popup-content form-block ">
+            <button class="popup-close">&#215;</button>
+            <div class="popup-form">
+              <h3 class="popup-title ">Оставить завку</h3>
+              <form action="mailer/smart.php" class="form" method="POST" id="form"> 
+                    <p class="popup-name">Ваше имя (как к вам обращаться):</p> 
+                  <input type="text" required  class="form-input" name="user_name" >
+                  <p class="popup-name">Номер телефона:</p> 
+                  <input type="text" name="user_summ" required  class="form-input">
+                  <p class="popup-name">E-mail:</p>
+                  <input type="text" name="user_summ" required  class="form-input"> 
+                  <div class="popup-block">
+                      <p class="popup-paragraph">Я хочу получать рассылку на указанный электронный адрес.</p>
+                  </div>
+                    <button type="submit" class="button popup-button " name="submit" value="Готово">Оправить</button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    <script src="./js/jquery-3.0.0.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
